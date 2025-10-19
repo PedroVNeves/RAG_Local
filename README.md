@@ -16,9 +16,9 @@ Este projeto implementa um Sistema de Geração Aumentada por Recuperação (RAG
 
 Para reduzir a latência de aproximadamente 20 segundos em ambientes com restrição de hardware, foram implementadas as seguintes otimizações no código:
 
-1. **Modelo LLM Leve:** Uso do Llama 3 (versão base ou quantizada) via Ollama
+1. **Modelo LLM Leve:** Uso do Llama 3 (versão base) via Ollama
 2. **Modelo de Embeddings Rápido:** Uso do `all-MiniLM-L6-v2`
-3. **Contexto Reduzido:** A busca de documentos (`similarity_search`) foi limitada a **`k=2`**, enviando menos texto para o LLM processar e acelerando o tempo de geração da resposta
+3. **Contexto Reduzido:** A busca de documentos (`similarity_search`) foi limitada a **`k=3`**, enviando menos texto para o LLM processar e acelerando o tempo de geração da resposta
 
 ## ⚙️ Pré-requisitos
 
