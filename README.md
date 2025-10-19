@@ -57,10 +57,9 @@ Certifique-se de que o Ollama está ativo e que o banco de dados vetorial (`db/`
 
 Com o ambiente virtual ativado, execute o script:
 ```bash
-python rag_app.py
+python main.py
 ```
 
-> **Nota:** Ajuste `rag_app.py` para o nome real do seu arquivo.
 
 A interface Gradio será aberta automaticamente no seu navegador, permitindo que você interaja com o sistema RAG.
 
@@ -68,7 +67,7 @@ A interface Gradio será aberta automaticamente no seu navegador, permitindo que
 ```
 .
 ├── db/                  # Banco de dados vetorial Chroma
-├── rag_app.py          # Script principal da aplicação
+├── main.py          # Script principal da aplicação
 ├── criar_db.py         # Script para criar o banco de dados (opcional)
 ├── requirements.txt    # Dependências do projeto
 └── README.md          # Este arquivo
