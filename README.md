@@ -1,4 +1,4 @@
-markdown# 🦜 Sistema RAG (Retrieval Augmented Generation) Local com Llama 3
+# 🦜 Sistema RAG (Retrieval Augmented Generation) Local com Llama 3
 
 Este projeto implementa um Sistema de Geração Aumentada por Recuperação (RAG) para consulta a documentos, combinando a arquitetura robusta do LangChain com modelos de código aberto. O sistema utiliza a interface Gradio para permitir a interação com o usuário.
 
