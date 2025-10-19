@@ -1,0 +1,20 @@
+# Dependências do LangChain
+langchain-core
+langchain-community
+
+# Conectores para LLM e Vector Store
+langchain-ollama
+langchain-chroma
+
+# Modelo de Embeddings (HuggingFace)
+# all-MiniLM-L6-v2 é o padrão para velocidade em CPU
+langchain-huggingface
+
+# Interface Gráfica
+gradio
+
+# Processamento de Dados
+# Pytorch é necessário como backend para HuggingFace/Sentence-Transformers
+torch
+# Adicione bibliotecas para carregamento de documentos, se necessário (ex: para PDF)
+pypdf
